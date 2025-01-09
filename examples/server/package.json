@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "server": "dist/server.js",
+  "type": "module",
   "targets": {
     "server": {
       "source": "src/server.tsx",
       "context": "react-server",
-      "outputFormat": "commonjs",
       "includeNodeModules": {
         "express": false
       }
