@@ -1,11 +1,10 @@
-"use client";
-
-import { useEffect } from "react";
+import { Logger } from "./Logger";
 
 export default function ExpensiveThing() {
-  useEffect(() => {
-    console.log("Expensive");
-  });
-
-  return <div>Expensive</div>;
+  return (
+    <div>
+      <Logger />
+      Expensive2
+    </div>
+  );
 }
